@@ -98,6 +98,12 @@ class Todo extends Component {
 		this.setState({items, text: ""});
 	}
 
+	/**
+	 * Input onChange listener
+	 * 
+	 * @param  {Even} e
+	 * @return {*}
+	 */
 	onChange(e) {
 		let value = e.target.value;
 		this.setState({text: value});
