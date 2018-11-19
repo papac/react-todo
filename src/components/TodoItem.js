@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Item extends Component {
+export default class TodoItem extends Component {
 	/**
 	 * Launch Todo mark method
 	 * 
@@ -26,14 +26,14 @@ export default class Item extends Component {
           <label>
           	<input type="checkbox" 
           		onChange={this.mark.bind(this)} 
-          		checked={this.props.done}/>
+          		checked={this.props.checked}/>
           	<span>{this.props.text}</span>
           </label>
           <div className="pull-right">
           	<button 
           		className="btn btn-danger btn-xs"
           		onClick={this.remove.bind(this)}>
-          		<span class="glyphicon glyphicon-remove"></span>
+          		<span className="glyphicon glyphicon-remove"></span>
           	</button>
           </div>
         </div>

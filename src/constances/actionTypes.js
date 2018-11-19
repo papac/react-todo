@@ -1,0 +1,7 @@
+export const ADD_TODO = "ADD_TODO";
+export const DELETE_TODO = "DELETE_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const UPDATE_FIELD_EDITOR = "UPDATE_FIELD_EDITOR";
+export const MARK_ALL = "MARK_ALL";
+export const FILTER_BY_COMPLETED = "FILTER_BY_COMPLETED";
+export const FILTER_BY_PROGRESS = "FILTER_BY_PROGRESS";
